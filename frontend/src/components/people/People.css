@@ -1,0 +1,32 @@
+.header {
+    display: grid;
+}
+
+.header h1 {
+    align-self: center;
+    justify-self: center;
+    margin-top: 25px;
+}
+
+.header button {
+    display: flex;
+    float: right;
+
+    justify-self: self-end;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions button{
+    width: 100px;
+    margin: auto;
+}
+
+.text-centered {
+    text-align: center;
+}
